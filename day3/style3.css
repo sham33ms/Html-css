@@ -33,7 +33,12 @@ nav a {
   color: white;
   text-decoration: none;
 }
-
+nav a:hover{
+    color: yellow;
+}
+nav a:visited{
+    color: wheat;
+}
 .main {
   display: flex;
   gap: 10px;
@@ -54,16 +59,30 @@ aside {
   background-color: pink;
   padding: 10px;
 }
+aside img{
+    width: 90%;
+    height: 90%;
+}
 
 
 section {
   background-color: beige;
   padding: 10px;
 }
+section img{
+    width: 100px;
+    height: 100px;
+    
+
+}
 
 article {
   background-color: rgb(217, 167, 74);
   padding: 10px;
+}
+article img{
+    width: 50%;
+    height: 50%;
 }
 
 footer {
